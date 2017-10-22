@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/jpeg" href="/images/favicon.png">
+  <title>My Food Delivery App</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">
+      <span id="k">K</span><span id="u">u</span><span id="m">m</span><span id="r">r</span><span id="a">a</span><span id="secondk">K</span><span id="2nd-a">a</span><span id="k">k</span><span id="e">e</span>
+    </h1>
+    <h3 id="tag-line"><span id="home">Home</span><span id="made">Made</span><span id="food">Food</span><span id="delivered">Delivered</span><span id="at">At</span><span id="your">Your</span><span id="door">Door</span><span id="steps">Steps</span></h3>
+  </header>
+   <hr>
+  <section id="navbar">
+    <div id="nav">
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/index">ABOUT</a></li>
+        <li><a href="index">FOOD</a></li>
+        <li><a href="#">ORDER</a></li>
+      </ul>
+    </div>
+  </section>
+<section class="editForm">
+  <form method='POST' action='/index/<%= data.id %>?_method=PUT'/>
+    <input name='id' type='hidden' value='<%= data.id %>' />
+    <input name='name' type='text' value='<%= data.name %>' />
+    <input name='type' type='text' value='<%= data.type %>' />
+    <input name='nutrition' type='text' value='<%= data.nutrition %>' />
+    <input name='cost' type='decimal' value='<%= data.cost %>' />
+    <input type='submit' value='Edit it!' id="edit" />
+  </form>
+</section>
+
+<section class="icons">
+    <p id="follow">Follow us on: </p>
+
+  <ul>
+      <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+  </ul>
+</section>
+  <footer class="footer">
+    <div id="privacy">
+      Privacy Policy
+    </div>
+    <div id="terms">
+      Terms of Use
+    </div>
+    <div id="copy">
+        &copy; amzad hosain || 2017.
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+

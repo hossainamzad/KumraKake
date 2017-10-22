@@ -1,0 +1,21 @@
+<% include ./partials/header.ejs %>
+  <h1 id="order"><a href="/index/new">Order food</a></h1>
+
+<div id="index-food">
+      <!-- <img src="images/colorImage.jpg" /> -->
+
+  <% for (let food of data) { %>
+    <div class='singleFood'>
+      <!-- <img src="images/cupcake.jpg" /> -->
+
+      <p id="foodName">Name: <span id="individualFood"><%= food.name %></span></p>
+      <p id="foodType">Type: <span id="individualFood"><%= food.type %></span></p>
+      <p id="foodNutrition">Nutrition: <span id="individualFood"><%= food.nutrition %></span></p>
+      <p id="foodPrice">Price: <span id="individualFood">$<%= food.cost %></span></p>
+
+      <span id="learnMore"><a href='/index/<%= food.id%>'>Edit Order</a></span>
+    </div>
+  <% } %>
+</div>
+
+<% include ./partials/footer.ejs %>

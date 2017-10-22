@@ -1,0 +1,265 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+}
+ section #blue{
+  width: 80px;
+  height: 30px;
+  background-color: yellow;
+  border: 1px solid red;
+}
+#title{
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 50px;
+}
+#tag-line{
+  text-align: center;
+  font-size: 30px;
+}
+ #k {
+  color: #C84854; }
+
+#u {
+  color: RGBA(142, 176, 190, 1.00) }
+
+#m {
+  color: #ADFF00; }
+
+#r {
+  color: #35ACFC; }
+
+#a {
+  color: #FFFF00; }
+
+#k{
+  color: RGBA(208, 51, 42, 1.00);
+}
+
+#a {
+  color: RGBA(211, 55, 129, 1.00);
+  }
+#secondk {
+  color: RGBA(9, 166, 221, 1.00);
+}
+#e {
+  color: RGBA(16, 68, 96, 1.00);
+}
+#home{
+  color: RGBA(175, 56, 253, 1.00);
+}
+#made{
+  color: RGBA(94, 60, 253, 1.00);
+}
+#food{
+  color:RGBA(0, 92, 254, 1.00);
+}
+#delivered{
+  color: RGBA(254, 135, 109, 1.00);
+}
+#at{
+  color: RGBA(0, 255, 68, 1.00);
+}
+#your{
+  color: RGBA(255, 181, 255, 1.00);
+}
+#door{
+  color: RGBA(255, 56, 248, 1.00);
+}
+#steps{
+  color: RGBA(106, 186, 255, 1.00);
+}
+
+#nav{
+  /* to center the navigation bars*/
+  text-align: center;
+  /* to leave spaces between the navigation bars*/
+  word-spacing: 70px;
+}
+#nav ul li{
+  /* to remove the bullet points*/
+  list-style: none;
+  /* to line them together horizontally*/
+  display: inline-block;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+
+}
+ul li a{
+  /* to remove the underline*/
+  text-decoration: none;
+  color: RGBA(117, 109, 178, 1.00);
+  font-weight: bold;
+}
+#follow{
+  font-family: times;
+  font-size: 20px;
+}
+
+.icons{
+  /* to center the navigation bars*/
+  text-align: center;
+  /* to leave spaces between the navigation bars*/
+  height: 200px;
+}
+
+.icons ul li{
+  /* to remove the bullet points*/
+  list-style: none;
+  /* to line them together horizontally*/
+  display: inline-block;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  padding: 3px 3px;
+
+}
+.footer{
+  text-align: center;
+  height: 40px;
+  background-color: RGBA(1, 186, 255, 1.00);
+  padding-top: 10px;
+}
+#privacy, #copy , #terms{
+  float: left;
+  display: inline;
+  width: 30%;
+  font-weight: bold;
+  color: white;
+}
+#pictures{
+  padding: 10px 90px 10px;
+}
+
+/*These stylings are for add page*/
+#wrap{
+  background: url("../images/background.jpg") no-repeat center center;
+  background-color: RGBA(32, 89, 38, 1.00);
+  text-align: center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#index-food{
+  width: 90%;
+  margin: 0 auto;
+
+}
+#order{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#order a{
+  text-decoration: none;
+}
+.singleFood{
+  border: 1px solid red;
+  margin: 1em;
+  width: 15%;
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: RGBA(104, 218, 255, 1.00);
+  width: 15%;
+  margin-left: 2.7em;
+  font-family: helvetica;
+
+}
+
+#individualFood{
+  font-weight: bold;
+}
+
+#learnMore{
+  font-weight: bold;
+  font-size: 20px;
+}
+#learnMore a{
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: RGBA(232, 84, 168, 1.00);
+}
+
+/*These stylingz are for single page*/
+.singleItem{
+  background: url("../images/colorImage.jpg") no-repeat center center;
+}
+.food{
+  /*margin-left: 8em;*/
+  text-align: center;
+  color: white;
+}
+
+#editButton, #seeAll{
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#editButton a, #seeAll a{
+  text-decoration: none;
+}
+form{
+  display: inline-block;
+  font-size: 16px;
+}
+input#submit{
+  background:none;
+  border:none;
+  font-size:1em;
+  color:white;
+  border: 3px solid white;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*These stylingz are for edit page*/
+.editForm{
+  text-align: center;
+}
+input[type=text],[type=decimal], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
